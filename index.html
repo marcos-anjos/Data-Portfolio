@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Data Scientist Portfolio • Marcos Vinicius</title>
+	<link rel="shortcut icon" href="images/globe.png" type="image/x-icon">
+	 <!-- Meta tag for the page description, used by search engines -->
+	 <meta name="description" content="Portfolio of Marcos Vinicius, Data Scientist. Showcases projects in data science/analysis, machine learning, and data visualization.">
+	 <!-- Meta tag for keywords, helps in SEO of the page -->
+	 <meta name="keywords" content="Data Scientist, Data Analysis, Machine Learning, Data Visualization, Python, R, Big Data, Artificial Intelligence, Data Science Portfolio">
+	<meta name="author" content="Marcos Vinicius">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#c7ecff">
+
+	<link href="images/favicon.png" rel="icon">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/plugin.min.css" rel="stylesheet">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/darkmode.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<!--===================== NAV BAR =====================-->
+	<header class="header-pr nav-bg-w main-header navfix fixed-top menu-white">
+		<div class="container-fluid m-pad">
+			<div class="menu-header">
+				<div class="dsk-logo">
+					<a class="nav-brand" href="./">						
+						<span class="signature-name">Data Scientist Portfolio</span>
+					</a>
+				</div>
+				
+				<div class="custom-nav" role="navigation">
+					<ul class="nav-list">
+						<li class="sbmenu">
+							<a href="#home" class="menu-links">Home</a>
+						</li>
+						<li class="sbmenu">
+							<a href="#about" class="menu-links">ABOUT</a>
+						</li>
+						<li class="sbmenu">
+							<a href="#services" class="menu-links">SERVICES</a>
+						</li>
+						<li class="sbmenu rpdropdown">
+							<a href="#portfolio" class="menu-links">Portfolio</a>
+						</li>
+						<li class="sbmenu rpdropdown">
+							<a href="#contact" class="menu-links">Contact</a>
+						</li>
+						<li class="sbmenu rpdropdown">
+							<a href="Blog.html" target="_blank" class="menu-links">Blog</a>
+						</li>
+					</ul>
+
+					<ul class="nav-list right-end-btn ms-lg-5">
+						<li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample"
+								class="btn-round- btn-br bg-btn2"><i class="fas fa-envelope"></i></a></li>
+
+						<li class="hidedesktop darkmodeswitch">
+							<div class="switch-wrapper"> <label class="switch" for="niwax"> <input type="checkbox"
+										id="niwax" /> <span class="slider round"></span> </label> </div>
+						</li>
+						<li class="hidedesktop"><a data-bs-toggle="offcanvas" href="#offcanvasExample"
+								class="btn-round- btn-br bg-btn2"><i class="fas fa-phone-alt"></i></a></li>
+						<li class="navm- hidedesktop"> <a class="toggle" href="#"><span></span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!--===================== NAV BAR ANCHOR =====================-->
+			<nav id="main-nav">
+				<ul class="first-nav">
+					<li>
+						<a href="#home">Home</a>
+					
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#services">Services</a>
+					</li>
+					<li>
+						<a href="#portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+					<li>
+						<a href="Blog.html" target="_blank">Blog</a>
+					</li>					
+				</ul>
+				<ul class="bottom-nav">
+					<li class="prb">
+						<a href="tel:+11111111111">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
+								<path
+									d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
+								  c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
+								  c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
+								  C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z" />
+							</svg>
+						</a>
+					</li>
+					<li class="prb">
+						<a href="/cdn-cgi/l/email-protection#34475b59514351565951505d55745359555d581a575b59">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+								<path
+									d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+								<path d="M0 0h24v24H0z" fill="none" />
+							</svg>
+						</a>
+					</li>
+					<li class="prb">
+						<a href="skype:niwax.company?call">
+							<svg enable-background="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="m23.309 14.547c1.738-7.81-5.104-14.905-13.139-13.543-4.362-2.707-10.17.352-10.17 5.542 0 1.207.333 2.337.912 3.311-1.615 7.828 5.283 14.821 13.311 13.366 5.675 3.001 11.946-2.984 9.086-8.676zm-7.638 4.71c-2.108.867-5.577.872-7.676-.227-2.993-1.596-3.525-5.189-.943-5.189 1.946 0 1.33 2.269 3.295 3.194.902.417 2.841.46 3.968-.3 1.113-.745 1.011-1.917.406-2.477-1.603-1.48-6.19-.892-8.287-3.483-.911-1.124-1.083-3.107.037-4.545 1.952-2.512 7.68-2.665 10.143-.768 2.274 1.76 1.66 4.096-.175 4.096-2.207 0-1.047-2.888-4.61-2.888-2.583 0-3.599 1.837-1.78 2.731 2.466 1.225 8.75.816 8.75 5.603-.005 1.992-1.226 3.477-3.128 4.253z" />
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+<!--============================= BUTTON CONTACT ===================================-->
+	<div class="niwaxofcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample">
+		<div class="offcanvas-body">
+			<div class="cbtn animation">
+				<div class="btnclose"> <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+						aria-label="Close"></button></div>
+			</div>
+			<div class="form-block sidebarform">
+				<h4>CONTACT ME</h4>
+				<form id="contactForm" data-bs-toggle="validator" class="shake mt20">
+					<div class="row">
+						<div class="form-group col-sm-12">
+							<input type="text" id="name" placeholder="Enter name" required data-error="Please fill Out">
+							<div class="help-block with-errors"></div>
+						</div>
+						<div class="form-group col-sm-12">
+							<input type="email" id="email" placeholder="Enter email" required>
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-sm-12">
+							<input type="text" id="mobile" placeholder="Enter mobile" required
+								data-error="Please fill Out">
+							<div class="help-block with-errors"></div>
+						</div>
+						<div class="form-group col-sm-12">
+							<select name="Dtype" id="Dtype" required>
+								<option value>Select Requirement</option>
+								<option value="web">Software Developer</option>
+								<option value="graphic">Data Analyst</option>
+								<option value="video">Data Scientist</option>
+							</select>
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+					<div class="form-group">
+						<textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
+						<div class="help-block with-errors"></div>
+					</div>
+					<button type="submit" id="form-submit" class="btn lnk btn-main bg-btn">Submit <span
+							class="circle"></span></button>
+					<div id="msgSubmit" class="h3 text-center hidden"></div>
+					<div class="clearfix"></div>
+				</form>
+			</div>
+			<div class="getintouchblock mt30">
+				<h4>Get In Touch</h4>
+				<p class="mt10">Please fill out the form below if you have a plan or project in mind that you'd like to
+					share with us.</p>
+				<div class="media mt15">
+					<div class="icondive"><img src="images/icons/call.svg" alt="icon"></div>
+					<div class="media-body getintouchinfo">
+						<a href="tel:123456790">+966 580653201
+							<span>Mon-Fri 9am - 6pm</span></a>
+					</div>
+				</div>
+				<div class="media mt15">
+					<div class="icondive"><img src="images/icons/whatsapp.svg" alt="icon"></div>
+					<div class="media-body getintouchinfo">
+						<a href="tel:123456790">+966 580653201
+							<span>Mon-Fri 9am - 6pm</span></a>
+					</div>
+				</div>
+				<div class="media mt15">
+					<div class="icondive"><img src="images/icons/mail.svg" alt="icon"></div>
+					<div class="media-body getintouchinfo">
+						<a href="/cdn-cgi/l/email-protection#a6cfc8c0c9e6d1c3c4d5cfd2c388c5c9cb"><span
+								class="__cf_email__"
+								data-cfemail="bed7d0d8d1fec9dbdccdd7cadb90ddd1d3">info@futplat.com
+							</span>
+							<span>Online Support</span></a>
+					</div>
+				</div>
+				<div class="media mt15">
+					<div class="icondive"><img src="images/icons/map.svg" alt="icon"></div>
+					<div class="media-body getintouchinfo">
+						<a href="/cdn-cgi/l/email-protection#8be2e5ede4cbfceee9f8e2ffeea5e8e4e6">Al Khobar - Saudi Arabia
+							<span>Visit Our Office</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="contact-data mt30">
+				<h4>Follow Us On:</h4>
+				<div class="social-media-linkz mt10">
+					<a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
+					<a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
+					<a href="javascript:void(0)" target="blank"><i class="fab fa-instagram"></i></a>
+					<a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
+					<a href="javascript:void(0)" target="blank"><i class="fab fa-youtube"></i></a>
+					<a href="javascript:void(0)" target="blank"><i class="fab fa-pinterest-p"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<!--======================= HOME =======================-->
+
+<!-- Include Typed.js library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+<!-- Initialize Typed.js -->
+<script>
+    // Wait for the DOM content to be fully loaded
+    document.addEventListener("DOMContentLoaded", function() {
+        
+        // Initialize Typed.js with configuration options
+        var typingEffect = new Typed(".typedText", {
+            strings: ["Data Scientist", "Software Developer", "R Data Analyst"], // Array of strings to type
+            loop: true, // Whether to loop through the strings
+            typeSpeed: 100, // Typing speed in milliseconds
+            backSpeed: 70, // Backspacing speed in milliseconds
+            backDelay: 2500 // Time delay before starting to backspace
+        });
+        
+    });
+</script>
+
+	<section id="home" class="hero-section hero-bg-bg1 bg-gradient dark-bg1">
+		<div class="text-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 v-center">
+						<div class="header-heading">
+							<h1 style="margin-bottom: 15px;">Hi, it's <span style="color: #2E8B57;">Marcos</span></h1> <!-- Reduce bottom margin -->
+							<h2 style="margin-bottom: 10px;">I'm a <span class="typedText"></span></h2> <!-- Reduce bottom margin -->
+							<p style="margin-bottom: 15px;">Collecting, cleaning, analyzing, and visualizing data are the foundations of impactful data science.</p> <!-- Reduce bottom margin -->
+							<a href="#" class="btn-main bg-btn lnk">Download CV
+								<i class="fas fa-file-download fa-icon"></i><span class="circle"></span></a>
+						</div>
+					</div>
+					<div class="col-lg-6 v-center">
+						<div class="single-image">
+							<img src="images/hero/Server-rafiki (1).png" alt="web development" class="img-fluid" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="scroll-icon-box">
+		<a href="#about" class="scroll-btn">
+			<img src="images/icons/bx-mouse.svg" alt="Scroll Down">
+			<p>Scroll Down</p>
+		</a>
+	</div>
+<!--======================= ABOUT ========================-->
+<style>
+	/* Estilos CSS para justificar os parágrafos */
+	#about p {
+		text-align: justify;
+		margin-bottom: 20px;
+	}
+	/* Adicione outros estilos CSS conforme necessário para melhorar o design */	
+</style>
+
+</head>
+<body>
+
+<section id="about" class="about-agency pad-tb">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 v-center">
+				<div class="image-block">
+					<img src="images\hero\Thoughts-rafiki.png" alt="about" class="img-fluid no-shadow" />
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="common-heading text-l">
+					<span>About Me</span>
+					<h4>My Introduction</h4>
+					<p>Welcome to my portfolio! I am a data scientist passionate about transforming data into meaningful and 
+						impactful insights. My work is fueled by a profound enthusiasm for Machine Learning technology 
+						and its potential to shape the future of our society. From exploring datasets to building advanced 
+						predictive models, I am dedicated to leveraging my skills to tackle complex challenges and discover 
+						innovative solutions.  I believe that the power of data can unlock new opportunities and drive significant 
+						advancements across various industries.</p>
+					<p>In my portfolio, you'll find projects that showcase my combined skills in data science and industrial 
+						automation. Whether it's uncovering hidden patterns in large datasets, designing intelligent systems, 
+						or optimizing algorithms for performance and scalability, my work consistently demonstrates my commitment 
+						to innovation and efficiency. I approach each challenge with creativity and rigor, ensuring solutions are 
+						not only effective but also scalable and sustainable. From predictive modeling to automating complex workflows, 
+						my focus is always on delivering impactful results that drive meaningful change.</p>
+					<!-- Quote -->
+					<p class="quote">"The goal is to turn data into information, and information into insight." – Carly Fiorina</p>
+					<div class="user- mt30">
+						<div class="media">
+							<div class="user-image bdr-radius"><img src="images/user-thumb/perfil.jpeg" alt="girl" class="img-fluid" /></div>
+							<div class="media-body user-info v-center">
+								<h5>Marcos Vinicius</h5>
+								<p>Data <span>Scientist</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--===================== SERVICES =====================-->
+<section id="services"  class="work-category pad-tb tilt3d">
+	<div class="container">
+	  <div class="row justify-content-center">
+		<div class="col-lg-6">
+		  <div class="common-heading">
+			  <span>Services</span>
+			  <h4 class="mb30">Let me help make better use of your data.</h4>
+		  </div>
+		</div>
+	  </div>
+	  <div class="row upset">       
+		<div class="col-lg-4 col-sm-6 mt30">
+		  <div class="s-block up-hor">
+			<div class="s-card-icon">
+			  <img
+				src="images/icons/machine-learning.png"
+				alt="service"
+				class="img-fluid"
+			  />
+			</div>
+			<h4>Predictive Modeling and Machine Learning</h4>
+			<p>
+				Develop predictive models using advanced machine learning techniques to forecast future outcomes based on historical data.
+			</p>
+		  </div>
+		</div>
+		<div class="col-lg-4 col-sm-6 mt30">
+		  <div class="s-block up-hor">
+			<div class="s-card-icon">
+			  <img
+				src="images/icons/data-engineer (1).png"
+				alt="service"
+				class="img-fluid"
+			  />
+			</div>
+			<h4>Data Engineering and Preparation</h4>
+			<p>
+				Clean and transform raw data into a usable format. Create efficient data pipelines to process large volumes of data, ensuring they are ready for analysis.
+			</p>
+		  </div>
+		</div>
+		<div class="col-lg-4 col-sm-6 mt30">
+		  <div class="s-block up-hor">
+			<div class="s-card-icon">
+			  <img
+				src="images/icons/statistics.png"
+				alt="service"
+				class="img-fluid"
+			  />
+			</div>
+			<h4>Statistical Analysis and Inference</h4>
+			<p>
+				Conduct statistical tests and inference to validate hypotheses. Apply advanced statistical techniques to provide precise insights.
+			</p>
+		  </div>
+		</div>		  
+	  </div>
+	  <div class="row upset"> 
+		  <div class="col-lg-4 col-sm-6 mt30">
+			  <div class="s-block up-hor">
+				<div class="s-card-icon">
+				  <img
+					src="images/icons/infographic.png"
+					alt="service"
+					class="img-fluid"
+				  />
+				</div>
+				<h4>Data Analysis and Visualization</h4>
+				<p>
+					Perform detailed data analysis to identify trends and patterns. Create interactive visualizations using tools like Tableau, Power BI, and D3.js to facilitate data interpretation and informed decision-making.
+				</p>
+			  </div>
+			</div>
+			<div class="col-lg-4 col-sm-6 mt30">
+			  <div class="s-block up-hor">
+				<div class="s-card-icon">
+				  <img
+					src="images/icons/graph.png"
+					alt="service"
+					class="img-fluid"
+				  />
+				</div>
+				<h4>Time Series Analysis and Forecasting</h4>
+				<p>
+					Analyze time series data to identify seasonal patterns and trends, and develop forecasting models to project future values. Use techniques like ARIMA, Prophet, and LSTM for predicting sales, demand, and more.
+				</p>
+			  </div>
+			</div>
+			<div class="col-lg-4 col-sm-6 mt30">
+			  <div class="s-block up-hor">
+				<div class="s-card-icon">
+				  <img
+					src="images/icons/optimization.png"
+					alt="service"
+					class="img-fluid"
+				  />
+				</div>
+				<h4>Optimization and Operations Research</h4>
+				<p>
+					Apply optimization and operations research techniques to improve process and operational efficiency. Solve complex optimization problems such as vehicle routing, resource allocation, and production planning.
+				</p>
+			  </div>
+			</div>		  
+		  </div>
+		  <div class="-cta-btn mt70">
+			  <div class="free-cta-title v-center wow zoomInDown">
+				  <p>Unleashing Insights, <span>Transforming</span> Futures.</p>
+				  <a data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn-main bg-btn2 lnk">Let's Collaborate<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+			  </div>
+			  
+		  </div>
+	</div>
+  </section>
+
+<!--===================== PORTFOLIO =====================-->
+<style>
+	
+    /* CSS for hiding title and description by default */
+    .item-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0); /* Transparent background */
+        width: 100%;
+        height: 100%; /* Cover the entire container */
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0;
+        transition: opacity 1s ease;
+        text-align: center; /* Center text */
+        color: #fff; /* Choose your desired font color */
+    }
+    
+    /* CSS for title */
+    .item-info h4 {
+        color: #fff; /* White font color for the title */
+    }
+    
+    /* CSS for revealing title and description on hover */
+    .single-card-item:hover .item-info {
+        opacity: 1;
+        background-color: rgba(36, 34, 34, 0.493); /* Opaque white background */
+    }
+
+    /* CSS to decrease spacing between rows */
+    .single-card-item {
+        margin-bottom: -50px; /* Adjust as needed */
+		margin-right: -10px; /* Adjust as needed */
+    }
+
+    /* Keep existing CSS intact */
+    .isotope_item h4 a,
+    .portfolio-item-info h3 a,
+    .work-card p {
+        color: #fff;
+    }
+	.item-image {
+    width: 100%; /* Ensure images fill their containers */
+    max-height: 250px; /* Limit the maximum height to 200px */
+    overflow: hidden; /* Hide any parts of the image that exceed the container */
+}
+	.item-image img {
+    width: 100%; /* Ensure images fill their containers */
+    height: 250px; /* Maintain the aspect ratio */
+    object-fit: cover; /* Resize the image to cover its container while maintaining its aspect ratio */
+}
+</style>
+
+<section id="portfolio" class="portfolio-section pad-tb">
+    <div class="container">
+      
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="common-heading">
+                    <span>Data Portfolio</span>
+                    <h4 class="mb0">A Glimpse into My Primary Projects</h4>
+                </div>													
+            </div>
+        </div>
+        <div class="row" id="project-list">
+           <!-- Project 1 -->
+<div class="col-lg-4 col-sm-6 single-card-item">
+    <div class="isotope_item">
+        <div class="item-image">
+            <a href="#">
+                <img src="images\portfolio\img-1.jpg" alt="blog" class="img-fluid" />
+            </a>
+        </div>
+        <a href="https://example.com"> 
+            <div class="item-info blog-info">
+                <h4 class="mt-3">Predictive Analytics for Stock Market Trends</h4>
+                <p>Analyze historical data to forecast stock market trends using machine learning algorithms.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Project 2 -->
+<div class="col-lg-4 col-sm-6 single-card-item">
+    <div class="isotope_item">
+        <div class="item-image">
+            <a href="#">
+                <img src="images\portfolio\img-2.jpg" alt="blog" class="img-fluid" />
+            </a>
+        </div>
+        <a href="https://example.com">  
+            <div class="item-info blog-info">
+                <h4 class="mt-3">Customer Segmentation Analysis</h4>
+                <p>Segment customers based on their purchasing behavior using statistical methods.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Project 3 -->
+<div class="col-lg-4 col-sm-6 single-card-item">
+    <div class="isotope_item">
+        <div class="item-image">
+            <a href="#">
+                <img src="images\portfolio\img-3.jpg" alt="blog" class="img-fluid" />
+            </a>
+        </div>
+        <a href="https://example.com">  
+            <div class="item-info blog-info">
+                <h4 class="mt-3">Sentiment Analysis on Social Media Data</h4>
+                <p>Analyze sentiment on social media platforms using natural language processing techniques.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Project 4 -->
+<div class="col-lg-4 col-sm-6 single-card-item">
+    <div class="isotope_item">
+        <div class="item-image">
+            <a href="#">
+                <img src="images\portfolio\img-4.jpg" alt="blog" class="img-fluid" />
+            </a>
+        </div>
+        <a href="https://example.com">  
+            <div class="item-info blog-info">
+                <h4 class="mt-3">Data Visualization for Financial Reporting</h4>
+                <p>Create interactive visualizations to communicate financial insights effectively.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Project 5 -->
+<div class="col-lg-4 col-sm-6 single-card-item">
+    <div class="isotope_item">
+        <div class="item-image">
+            <a href="#">
+                <img src="images\portfolio\img-5.jpg" alt="blog" class="img-fluid" />
+            </a>
+        </div>
+        <a href="https://example.com">  
+            <div class="item-info blog-info">
+                <h4 class="mt-3">Named Entity Recognition in Text Data</h4>
+                <p>Identify and classify named entities in unstructured text data using natural language processing.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Project 6 -->
+<div class="col-lg-4 col-sm-6 single-card-item">
+    <div class="isotope_item">
+        <div class="item-image">
+            <a href="#">
+                <img src="images\portfolio\img-6.jpg" alt="blog" class="img-fluid" />
+            </a>
+        </div>
+        <a href="https://example.com">   
+            <div class="item-info blog-info">
+                <h4 class="mt-3">Machine Learning Model for Predictive Maintenance</h4>
+                <p>Develop predictive maintenance models to optimize equipment uptime and reduce maintenance costs.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Project 7 -->
+<div class="col-lg-4 col-sm-6 single-card-item">
+    <div class="isotope_item">
+        <div class="item-image">
+            <a href="#">
+                <img src="images\portfolio\img-7.jpg" alt="blog" class="img-fluid" />
+            </a>
+        </div>
+        <a href="https://example.com" target="_blank">
+            <div class="item-info blog-info">
+                <h4 class="mt-3">Interactive Dashboard for Exploratory Data Analysis</h4>
+                <p>Create an interactive dashboard to explore and analyze complex datasets visually.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Project 8 -->
+<div class="col-lg-4 col-sm-6 single-card-item">
+    <div class="isotope_item">
+        <div class="item-image">
+            <a href="#">
+                <img src="images\portfolio\img-8.jpg" alt="blog" class="img-fluid" />
+            </a>
+        </div>
+        <a href="https://example.com" target="_blank">
+            <div class="item-info blog-info">
+                <h4 class="mt-3">Database Optimization for Efficient Data Retrieval</h4>
+                <p>Optimize database performance to ensure efficient data retrieval and management.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- Project 9 -->
+<div class="col-lg-4 col-sm-6 single-card-item">
+    <div class="isotope_item">
+        <div class="item-image">
+            <a href="#">
+                <img src="images\portfolio\img-9.jpg" alt="blog" class="img-fluid" />
+            </a>
+        </div>
+        <a href="https://example.com" target="_blank">
+            <div class="item-info blog-info">
+                <h4 class="mt-3">Deep Learning for Image Recognition</h4>
+                <p>Implement deep learning algorithms for image recognition tasks with high accuracy.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+</section>
+<!--========================== CONTACT===========================-->
+	<section id="contact" class="enquire-form pad-tb">
+		<div class="container">
+			<div class="row light-bgs">
+				<div class="col-lg-6">
+					<div class="common-heading text-l">
+						<span>Contact Now</span>
+						<h4 class="mt0">Have Question? Write a Message</h4>
+					</div>
+					<div class="form-block">
+						<form action="#" method="post" name="feedback-form">
+							<div class="fieldsets row">
+								<div class="col-md-6"><input type="text" placeholder="Full Name" name="name"></div>
+								<div class="col-md-6"><input type="email" placeholder="Email Address" name="email">
+								</div>
+							</div>
+							<div class="fieldsets row">
+								<div class="col-md-6"><input type="number" placeholder="Contact Number" name="phone">
+								</div>
+								<div class="col-md-6"><input type="text" placeholder="Subject" name="subject"></div>
+							</div>
+							<div class="fieldsets"><textarea placeholder="Message" name="message"></textarea></div>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck" name="example1"
+									checked="checked">
+								<label class="custom-control-label" for="customCheck">I agree to the <a
+										href="javascript:void(0)">Terms &amp; Conditions</a> of Business Name.</label>
+							</div>
+							<div class="fieldsets mt20"> <button type="submit" name="submit"
+									class="lnk btn-main bg-btn">Submit <i class="fas fa-chevron-right fa-icon"></i><span
+										class="circle"></span></button> </div>
+							<p class="trm"><i class="fas fa-lock"></i>We hate spam, and we respect your privacy.</p>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-6 v-center">
+					<div class="enquire-image">
+						<img src="images/about/hellopic.png" alt="enquire" class="img-fluid" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--========================= FOOTER =========================-->
+
+<div class="footer-row3" >
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+					<ul class="footer-address-list link-hover">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+						<li><a href="#">Blog</a></li>
+                    </ul>
+					<div class="footer-social-media-icons">
+						<a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+						<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+						<a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>                                            
+					</div>       
+                    <div class="footer-">
+                        <p>© 2024 Copyright | Portfolio • Marcos Vinicius</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+	<!--========================= JS =========================-->
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/plugin.min.js"></script>
+	<script src="js/preloader.js"></script>
+	<script src="js/dark-mode.js"></script>
+	<script src="js/main.js"></script>
+	
+
+</body>
+
+</html>
