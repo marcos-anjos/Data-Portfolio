@@ -8382,3 +8382,9 @@ a.smllbtnn {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), /* Stronger outer shadow on hover */
               inset 0 4px 8px rgba(0, 0, 0, 0.1); /* Stronger inner shadow on hover */
 }
+.scrollable-content {
+  max-height: 453px; /* Ajuste a altura conforme necessário */
+  overflow-y: auto;
+  padding-right: 15px; /* Opcional: Adicionar espaço para a barra de rolagem */
+}
+
