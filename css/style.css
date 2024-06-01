@@ -8354,15 +8354,13 @@ a.smllbtnn {
   margin-bottom: -15px; /* Adjust as needed to reduce space */
 }
 
-
-
 /* Adicionado espaçamento entre os projetos */
 .single-card-item {
   margin-bottom: 20px; 
 }
 
 .footer-social-media-icons {
-  margin-top: 20px;
+  margin-top: -60px;
   text-align: center;
 }
 
