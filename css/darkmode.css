@@ -921,11 +921,6 @@
   .active-dark .btn-close {
     border-radius: 100px;
   }
-  /* Estilos para o dark mode */
-.active-dark .footer-social-media-icons a {
-  color: #2E8B57; /* Cor dos ícones no modo escuro */
-}
-
-.active-dark .s-card-icon img {
-  filter: drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff); /* Efeito de brilho neon */
-}
+  .active-dark .s-card-icon img {
+    filter: drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff) drop-shadow(0 0 0.7px #fff); /* Efeito de brilho neon */
+  }
