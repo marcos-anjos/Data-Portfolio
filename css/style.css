@@ -8360,7 +8360,7 @@ a.smllbtnn {
 }
 
 .scrollable-content {
-  max-height: 453px; /* Ajuste a altura conforme necessário */
+  max-height: 457px; /* Ajuste a altura conforme necessário */
   overflow-y: auto;
   padding-right: 15px; /* Opcional: Adicionar espaço para a barra de rolagem */
 }
