@@ -33,166 +33,99 @@
   <body>
 
 
-    <div
-      class="niwaxofcanvas offcanvas offcanvas-end"
-      tabindex="-1"
-      id="offcanvasExample"
-    >
-      <div class="offcanvas-body">
-        <div class="cbtn animation">
-          <div class="btnclose">
-            <button
-              type="button"
-              class="btn-close text-reset"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
+<!--============================= BOTÃO DE CONTATO ===================================-->
+<div class="niwaxofcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample">
+  <div class="offcanvas-body">
+  <div class="cbtn animation">
+    <div class="btnclose"> 
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+    </div>
+  </div>
+  <div class="form-block sidebarform">
+    <h4>Entre em Contato</h4>
+    <form id="contactForm" data-bs-toggle="validator" class="shake mt20">
+      <div class="row">
+        <div class="form-group col-sm-12">
+          <input type="text" id="name" placeholder="Digite o nome" required data-error="Por favor, preencha">
+          <div class="help-block with-errors"></div>
         </div>
-        <div class="form-block sidebarform">
-          <h4>Request A Quote</h4>
-          <form id="contactForm" data-bs-toggle="validator" class="shake mt20">
-            <div class="row">
-              <div class="form-group col-sm-12">
-                <input
-                  type="text"
-                  id="name"
-                  placeholder="Enter name"
-                  required
-                  data-error="Please fill Out"
-                />
-                <div class="help-block with-errors"></div>
-              </div>
-              <div class="form-group col-sm-12">
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="Enter email"
-                  required
-                />
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="form-group col-sm-12">
-                <input
-                  type="text"
-                  id="mobile"
-                  placeholder="Enter mobile"
-                  required
-                  data-error="Please fill Out"
-                />
-                <div class="help-block with-errors"></div>
-              </div>
-              <div class="form-group col-sm-12">
-                <select name="Dtype" id="Dtype" required>
-                  <option value>Select Requirement</option>
-                  <option value="web">web</option>
-                  <option value="graphic">graphic</option>
-                  <option value="video">video</option>
-                </select>
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="form-group">
-              <textarea
-                id="message"
-                rows="5"
-                placeholder="Enter your message"
-                required
-              ></textarea>
-              <div class="help-block with-errors"></div>
-            </div>
-            <button
-              type="submit"
-              id="form-submit"
-              class="btn lnk btn-main bg-btn"
-            >
-              Submit <span class="circle"></span>
-            </button>
-            <div id="msgSubmit" class="h3 text-center hidden"></div>
-            <div class="clearfix"></div>
-          </form>
-        </div>
-        <div class="getintouchblock mt30">
-          <h4>Get In Touch</h4>
-          <p class="mt10">
-            Please fill out the form below if you have a plan or project in mind
-            that you'd like to share with us.
-          </p>
-          <div class="media mt15">
-            <div class="icondive">
-              <img src="images/icons/call.svg" alt="icon" />
-            </div>
-            <div class="media-body getintouchinfo">
-              <a href="tel:123456790"
-                >+91-123 4567 890 <span>Mon-Fri 9am - 6pm</span></a
-              >
-            </div>
-          </div>
-          <div class="media mt15">
-            <div class="icondive">
-              <img src="images/icons/whatsapp.svg" alt="icon" />
-            </div>
-            <div class="media-body getintouchinfo">
-              <a href="tel:123456790"
-                >+91-123 4567 890 <span>Mon-Fri 9am - 6pm</span></a
-              >
-            </div>
-          </div>
-          <div class="media mt15">
-            <div class="icondive">
-              <img src="images/icons/mail.svg" alt="icon" />
-            </div>
-            <div class="media-body getintouchinfo">
-              <a
-                href="/cdn-cgi/l/email-protection#4b22252d240b3c2e2938223f2e65282426"
-                ><span
-                  class="__cf_email__"
-                  data-cfemail="3c55525a537c4b595e4f554859125f5351"
-                  >[email&#160;protected]</span
-                >
-                <span>Online Support</span></a
-              >
-            </div>
-          </div>
-          <div class="media mt15">
-            <div class="icondive">
-              <img src="images/icons/map.svg" alt="icon" />
-            </div>
-            <div class="media-body getintouchinfo">
-              <a
-                href="/cdn-cgi/l/email-protection#f891969e97b88f9d9a8b918c9dd69b9795"
-                >Jaipur, Rajasthan, India<span>Visit Our Office</span></a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="contact-data mt30">
-          <h4>Follow Us On:</h4>
-          <div class="social-media-linkz mt10">
-            <a href="javascript:void(0)" target="blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a href="javascript:void(0)" target="blank"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a href="javascript:void(0)" target="blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="javascript:void(0)" target="blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="javascript:void(0)" target="blank"
-              ><i class="fab fa-youtube"></i
-            ></a>
-            <a href="javascript:void(0)" target="blank"
-              ><i class="fab fa-pinterest-p"></i
-            ></a>
-          </div>
+        <div class="form-group col-sm-12">
+          <input type="email" id="email" placeholder="Digite o email" required>
+          <div class="help-block with-errors"></div>
         </div>
       </div>
+      <div class="row">
+        <div class="form-group col-sm-12">
+          <input type="text" id="mobile" placeholder="Digite o celular" required data-error="Por favor, preencha">
+          <div class="help-block with-errors"></div>
+        </div>
+        <div class="form-group col-sm-12">
+          <select name="Dtype" id="Dtype" required>
+            <option value>Selecione a Requisição</option>
+            <option value="web">Analista Estatístico em R</option>
+            <option value="graphic">Analista de Dados</option>
+          </select>
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea id="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+        <div class="help-block with-errors"></div>
+      </div>
+      <button type="submit" id="form-submit" class="btn lnk btn-main bg-btn">Enviar <span class="circle"></span></button>
+      <div id="msgSubmit" class="h3 text-center hidden"></div>
+      <div class="clearfix"></div>
+    </form>
+  </div>
+  <div class="getintouchblock mt30">
+    <h4>Entre em Contato</h4>
+    <p class="mt10">Por favor, preencha o formulário abaixo se você tem um plano ou projeto em mente que gostaria de compartilhar conosco.</p>
+    <div class="media mt15">
+      <div class="icondive"><img src="images/icons/call.svg" alt="ícone"></div>
+      <div class="media-body getintouchinfo">
+        <a href="tel:123456790">(71) 9 92052035
+          <span>Seg-Sex 9h - 18h</span>
+        </a>
+      </div>
     </div>
+    <div class="media mt15">
+      <div class="icondive"><img src="images/icons/whatsapp.svg" alt="ícone"></div>
+      <div class="media-body getintouchinfo">
+        <a href="tel:123456790">(71) 9 92052035
+          <span>Seg-Sex 9h - 18h</span>
+        </a>
+      </div>
+    </div>
+    <div class="media mt15">
+      <div class="icondive"><img src="images/icons/mail.svg" alt="ícone"></div>
+      <div class="media-body getintouchinfo">
+        <a href="/cdn-cgi/l/email-protection#a6cfc8c0c9e6d1c3c4d5cfd2c388c5c9cb"><span class="__cf_email__" data-cfemail="bed7d0d8d1fec9dbdccdd7cadb90ddd1d3">marcos.akbz@hotmail.com</span>
+          <span>Suporte Online</span>
+        </a>
+      </div>
+    </div>
+    <div class="media mt15">
+      <div class="icondive"><img src="images/icons/map.svg" alt="ícone"></div>
+      <div class="media-body getintouchinfo">
+        <a href="/cdn-cgi/l/email-protection#8be2e5ede4cbfceee9f8e2ffeea5e8e4e6">Salvador - Bahia
+          <span>Endereço</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="contact-data mt30">
+    <h4>Siga-nos em:</h4>
+    <div class="social-media-linkz mt10">
+      <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
+      <a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
+      <a href="javascript:void(0)" target="blank"><i class="fab fa-instagram"></i></a>
+      <a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
+      <a href="javascript:void(0)" target="blank"><i class="fab fa-youtube"></i></a>
+      <a href="javascript:void(0)" target="blank"><i class="fab fa-pinterest-p"></i></a>
+    </div>
+  </div>
+  </div>
+  </div>
 
     <header class="header-pr nav-bg-w main-header navfix fixed-top menu-white">
       <div class="container-fluid m-pad">
@@ -206,7 +139,7 @@
           <div class="custom-nav" role="navigation">
             <ul class="nav-list">
               <li class="sbmenu">
-                <a href="index.html" class="menu-links">Home</a>
+                <a href="index.html" class="menu-links">Início</a>
               </li>           
               <li class="sbmenu rpdropdown">
                 <a href="Blog.html" class="menu-links">Blog</a>
@@ -232,7 +165,7 @@
         <nav id="main-nav">
           <ul class="first-nav">
             <li>
-              <a href="index.html">Home</a>
+              <a href="index.html">Início</a>
             
             </li>          
             <li>
@@ -589,27 +522,27 @@
       </li>
       <li>
       <span><i class="fas fa-phone-alt"></i></span>
-      <p>Phone <span> <a href="tel:+10000000000">(71) 9 92052035</a></span></p>
+      <p>Telefone<span> <a href="tel:+10000000000">(71) 9 92052035</a></span></p>
       </li>
       <li>
       <span><i class="fas fa-map-marker-alt"></i></span>
-      <p>Address <span>Salvador - Bahia
+      <p>Endereço<span>Salvador - Bahia
       </span></p>
       </li>
     </ul>
     </div>
     <div class="col-lg-2 col-sm-6">
-    <h5>Sobre</h5>
+    <h5>Links Úteis</h5>
     <ul class="footer-address-list link-hover">
-      <li><a href="#">Contato</a></li>
-      <li><a href="javascript:void(0)">FAQ do Cliente</a></li>
+      <li><a href="#">Sobre Nós</a></li>
+      <li><a href="javascript:void(0)">FAQ</a></li>
       <li><a href="javascript:void(0)">Política de Privacidade</a></li>
       <li><a href="javascript:void(0)">Termos e Condições</a></li>
-      <li><a href="javascript:void(0)">Licença e Direitos Autorais</a></li>
+      <li><a href="javascript:void(0)">Licença MIT</a></li>
     </ul>
     </div>
     <div class="col-lg-4 col-sm-6 footer-blog-">
-    <h5>Artigos Recentes</h5>
+    <h5>Posts Recentes</h5>
     <div class="single-blog-">
       <div class="post-thumb"><a href="#"><img src="images/blog/blog-small.jpg" alt="blog"></a>
       </div>
