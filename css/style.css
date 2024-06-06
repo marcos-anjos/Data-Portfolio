@@ -1283,7 +1283,7 @@ a.play-video::after {
 .item-image {
   display: block;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 10px;
   background: #f3f9ff;
   -webkit-box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059),
     0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071),
@@ -1860,7 +1860,7 @@ footer.ftshap:before {
 }
 .footer-row2 {
   background: #fff;
-  padding: 50px 0 80px;
+  padding: 50px 0 60px;
 }
 .footer-row3 {
   background: #fff;
@@ -1904,13 +1904,14 @@ footer.ftshap:before {
 }
 .footer-row2 h5 {
   margin-bottom: 25px;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   margin-top: 30px;
+  font-family: open sans, sans-serif;
 }
 .footer-address-list li p {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
   font-family: Poppins, sans-serif;
   line-height: 25px;
 }
