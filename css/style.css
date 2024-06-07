@@ -1903,7 +1903,7 @@ footer.ftshap:before {
   box-shadow: none;
 }
 .footer-row2 h5 {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-size: 20px;
   font-weight: 600;
   margin-top: 30px;
@@ -3680,7 +3680,7 @@ p.video-lab-- {
   color: #fff;
 }
 .up-hor:hover {
-  transform: translateY(-7.5px);
+  transform: translateY(-10px);
 }
 .h-scl-:hover .h-scl-base {
   -webkit-transform: scale(0.9);
@@ -8283,32 +8283,18 @@ a.smllbtnn {
   font-size: 40px;
 }
 
-/* Button Styles */
-.scroll-btn {
+.scroll-icon-box {
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 50px;
-  gap: 5px;
-  text-decoration: none;
-  color: #2E8B57; /* Green font color */
-  background: #ffffff; /* White button background */
-  border-radius: 30px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  text-align: center;
+  animation: scrollAnimation 1s infinite alternate;
 }
 
-.scroll-btn i {
-  font-size: 20px;
-}
-
-/* Background Color */
-.green-bg {
-  background-color: #2E8B57; /* Green color */
+.scroll-icon-box img {
+  width: 45px;
+  height: 45px;
 }
 
 .signature-name {
