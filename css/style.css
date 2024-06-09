@@ -8308,8 +8308,8 @@ a.smllbtnn {
 .project-filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px; /* Space below the buttons */
   margin-top: 20px; /* Increased bottom spacing */
-  max-width: 1000px; /* Adjust maximum width */
 }
 
 .filter-btn {
@@ -8317,13 +8317,11 @@ a.smllbtnn {
   color: #2E8B57;
   background: transparent;
   border: 1px solid #2E8B57;
-  padding: 10px 10px; /* Increased padding */
+  padding: 8px 10px; /* Increased padding */
   border-radius: 5px;
-  margin: 0 5px; /* Increased spacing between buttons */
+  margin: 0 3px; /* Increased spacing between buttons */
   cursor: pointer;
-  transition-duration: 0.3s; /* Added transition duration */
-  display: flex;
-  align-items: center;
+  transition-duration: 0.3s; /* Smooth transition duration */
 }
 
 .filter-btn:hover,
@@ -8340,6 +8338,24 @@ a.smllbtnn {
 .project-filter:nth-child(2) {
   margin-bottom: -15px; /* Adjust as needed to reduce space */
 }
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .filter-btn {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+
+  .project-filter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filter-btn {
+    margin: 5px 0;
+  }
+}
+
 
 /* Adicionado espaçamento entre os projetos */
 .single-card-item {
