@@ -1860,7 +1860,7 @@ footer.ftshap:before {
 }
 .footer-row2 {
   background: #fff;
-  padding: 50px 0 60px;
+  padding: 40px 0 40px;
 }
 .footer-row3 {
   background: #fff;
@@ -8299,7 +8299,7 @@ a.smllbtnn {
 
 .signature-name {
   font-family: 'Roboto', cursive, sans-serif; /* Usando a fonte 'Zeyada' como primeira opção, seguida por fontes de fallback. */
-  font-size: 18px; /* Tamanho da fonte para destacar o nome. */
+  font-size: 16px; /* Tamanho da fonte para destacar o nome. */
   color: #2E8B57; /* Uma cor verde escura que é suave aos olhos. */
   text-decoration: none; /* Removendo o sublinhado, presumindo que não queremos que pareça um link. */
 }
@@ -8356,7 +8356,6 @@ a.smllbtnn {
   }
 }
 
-
 /* Adicionado espaçamento entre os projetos */
 .single-card-item {
   margin-bottom: 20px; 
@@ -8368,3 +8367,17 @@ a.smllbtnn {
   padding-right: 15px; /* Opcional: Adicionar espaço para a barra de rolagem */
 }
 
+.keyword-btn {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  background-color: rgba(46, 139, 87, 0.1); /* Azul claro com opacidade */
+  color: #2E8B57; /* Cor do texto azul */
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+  border: none; /* Remove a borda padrão do botão */
+  cursor: default; /* Remove o cursor pointer */
+}

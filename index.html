@@ -35,8 +35,8 @@ rel="stylesheet">
 		<div class="container-fluid m-pad">
 			<div class="menu-header">
 				<div class="dsk-logo">
-					<a class="nav-brand" href="./">						
-						<span class="signature-name">Portfólio de Dados</span>
+					<a class="nav-brand" href="./">
+						<span class="signature-name">Portfólio de Analista de Dados</span>
 					</a>
 				</div>
 				
@@ -162,8 +162,8 @@ rel="stylesheet">
 			<div class="form-group col-sm-12">
 				<select name="Dtype" id="Dtype" required>
 					<option value>Selecione a Requisição</option>
-					<option value="web">Analista Estatístico em R</option>
 					<option value="graphic">Analista de Dados</option>
+					<option value="web">Analista Estatístico em R</option>					
 				</select>
 				<div class="help-block with-errors"></div>
 			</div>
@@ -199,7 +199,7 @@ rel="stylesheet">
 	<div class="media mt15">
 		<div class="icondive"><img src="images/icons/mail.svg" alt="ícone"></div>
 		<div class="media-body getintouchinfo">
-			<a href="/cdn-cgi/l/email-protection#a6cfc8c0c9e6d1c3c4d5cfd2c388c5c9cb"><span class="__cf_email__" data-cfemail="bed7d0d8d1fec9dbdccdd7cadb90ddd1d3">marcos.akbz@hotmail.com</span>
+			<a href="/cdn-cgi/l/email-protection#a6cfc8c0c9e6d1c3c4d5cfd2c388c5c9cb"><span class="__cf_email__" data-cfemail="bed7d0d8d1fec9dbdccdd7cadb90ddd1d3">info@gmail.com</span>
 				<span>Suporte Online</span>
 			</a>
 		</div>
@@ -216,13 +216,14 @@ rel="stylesheet">
 <div class="contact-data mt30">
 	<h4>Siga-nos em:</h4>
 	<div class="social-media-linkz mt10">
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-instagram"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-youtube"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-pinterest-p"></i></a>
+		<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+		<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+		<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+		<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+		<a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
 	</div>
+	
 </div>
 </div>
 </div>
@@ -273,7 +274,7 @@ margin-bottom: 20px;
 <div class="row">
 	<div class="col-lg-6 v-center">
 		<div class="image-block">
-			<img src="images/hero/img-9.png" alt="sobre" class="img-fluid no-shadow" />
+			<img src="images/hero/img-25.gif" alt="sobre" class="img-fluid no-shadow" />
 		</div>
 	</div>
 	<div class="col-lg-6">
@@ -285,6 +286,7 @@ margin-bottom: 20px;
 				<p>Sempre em busca de aprimoramento, participei de inúmeros cursos e certificações em ciência de dados, aprendizado de máquina e visualização de dados. Além disso, mantenho-me atualizado com as últimas tendências e inovações na área por meio de leituras, webinars e conferências.</p>
 				<p>Estou ansioso para colaborar em projetos inovadores e integrar equipes focadas em decisões orientadas por dados, especialmente no âmbito do aprendizado de máquina. Acredito fortemente que a análise de dados pode revolucionar negócios, e meu objetivo é ajudar organizações a utilizar o poder dos dados para tomar decisões mais informadas e estratégicas.</p>
 			</div>
+			
 			<!-- Citação -->
 			<p class="quote">"O objetivo é transformar dados em informação, e informação em insight." – Carly Fiorina</p>
 			<div class="user- mt30">
@@ -432,13 +434,18 @@ margin-bottom: 20px;
         transition: opacity 1s ease;
         text-align: center; /* Center text */
         color: #fff; /* Choose your desired font color */
+
+		display: flex;
+		justify-content: center; /* Center text horizontally */
+		align-items: center; /* Center text vertically */
+		flex-direction: column; /* Stack text vertically */
     }
     
     /* CSS for title */
     .item-info h4 {
         color: #fff; /* White font color for the title */
 		font-family: 'Poppins', sans-serif;		
-		font-size: 18px;
+		font-size: 20px;
 		margin-bottom: 5px;
 	}
 	/* CSS para a descrição */
@@ -477,6 +484,7 @@ margin-bottom: 20px;
 </style>
 
 <section id="portfolio" class="portfolio-section pad-tb">
+
 <div class="container">
 	
 	<div class="row justify-content-center">
@@ -494,13 +502,13 @@ margin-bottom: 20px;
         <i class="fas fa-list"></i> Todos
     </button>
     <button class="filter-btn" data-filter="python">
-        <i class="fas fa-code"></i> Python
-    </button>
+    	<i class="fab fa-python"></i> Python
+	</button>
 	<button class="filter-btn" data-filter="sql">
         <i class="fas fa-database"></i> SQL
     </button>
     <button class="filter-btn" data-filter="r">
-        <i class="fas fa-code"></i> R
+        <i class="fab fa-r-project"></i> R
     </button>
     <button class="filter-btn" data-filter="data-visualization">
         <i class="fas fa-chart-pie"></i> Visualização de Dados
@@ -511,17 +519,15 @@ margin-bottom: 20px;
     <button class="filter-btn" data-filter="api">
         <i class="fas fa-cloud"></i> API
     </button>
-    <button class="filter-btn" data-filter="micro-projects">
-        <i class="fas fa-tasks"></i> Micro-Projetos
+	<button class="filter-btn" data-filter="web-application">
+		<i class="fas fa-laptop"></i> Aplicação Web
     </button>
-	<button class="filter-btn" data-filter="backend">
-		<i class="fas fa-server"></i> Back-End
-	</button>
 </div>
 
 <div class="row" id="project-list">
+
 <!-- Project 1 -->
-<div class="col-lg-4 col-sm-6 single-card-item" data-category="api">
+<div class="col-lg-4 col-sm-6 single-card-item" data-category="python data-visualization">
     <div class="isotope_item">
         <div class="item-image">
             <a href="#">
@@ -530,15 +536,15 @@ margin-bottom: 20px;
         </div>
         <a href="https://example.com"> 
             <div class="item-info blog-info">
-                <h4 class="mt-3">Predictive Analytics for Stock Market Trends</h4>
-                <p>Analyze historical data to forecast stock market trends using machine learning algorithms.</p>
+                <h4 class="mt-3">Impacto dos Desastres no Brasil: Análise Interativa (1991-2023)</h4>
+				<p>Explore os dados históricos dos desastres no Brasil com uma aplicação web interativa desenvolvida em Python usando Dash Plotly.</p>
             </div>
         </a>
     </div>
 </div>
 
 <!-- Project 2 -->
-<div class="col-lg-4 col-sm-6 single-card-item" data-category="python">
+<div class="col-lg-4 col-sm-6 single-card-item" data-category="python ml">
     <div class="isotope_item">
         <div class="item-image">
             <a href="#">
@@ -547,8 +553,8 @@ margin-bottom: 20px;
         </div>
         <a href="https://example.com">  
             <div class="item-info blog-info">
-                <h4 class="mt-3">Customer Segmentation Analysis</h4>
-                <p>Segment customers based on their purchasing behavior using statistical methods.</p>
+                <h4 class="mt-3">Market Basket Analysis do Instacart</h4>
+				<p>Descubra padrões de compra com a análise de regras de associação. Este estudo abrange MBA, gestão de estoque, estratégias de merchandising e cross-selling.</p>
             </div>
         </a>
     </div>
@@ -564,15 +570,15 @@ margin-bottom: 20px;
         </div>
         <a href="https://example.com">  
             <div class="item-info blog-info">
-                <h4 class="mt-3">Sentiment Analysis on Social Media Data</h4>
-                <p>Analyze sentiment on social media platforms using natural language processing techniques.</p>
+                <h4 class="mt-3">Análise de Clusters de Clientes em Supermercados</h4>
+				<p>Utilize Python e K-Means para segmentação de clientes em supermercados. Este projeto, desenvolvido com Scikit-Learn, oferece visualizações detalhadas para insights estratégicos.</p>
             </div>
         </a>
     </div>
 </div>
 
 <!-- Project 4 -->
-<div class="col-lg-4 col-sm-6 single-card-item" data-category="api">
+<div class="col-lg-4 col-sm-6 single-card-item" data-category="python micro-projects ml api">
     <div class="isotope_item">
         <div class="item-image">
             <a href="#">
@@ -581,8 +587,8 @@ margin-bottom: 20px;
         </div>
         <a href="https://example.com">  
             <div class="item-info blog-info">
-                <h4 class="mt-3">Data Visualization for Financial Reporting</h4>
-                <p>Create interactive visualizations to communicate financial insights effectively.</p>
+                <h4 class="mt-3">Análise de Sentimento em Dados de Mídia Social</h4>
+				<p>Realize uma análise aprofundada de sentimentos em plataformas de mídia social utilizando técnicas avançadas de processamento de linguagem natural (NLP).</p>
             </div>
         </a>
     </div>
@@ -593,12 +599,12 @@ margin-bottom: 20px;
     <div class="isotope_item">
         <div class="item-image">
             <a href="#">
-                <img src="images\portfolio\img-5.jpg" alt="blog" class="img-fluid" />
+                <img src="images\portfolio\img-10.jpeg" alt="blog" class="img-fluid" />
             </a>
         </div>
         <a href="https://example.com">  
             <div class="item-info blog-info">
-                <h4 class="mt-3">Named Entity Recognition in Text Data</h4>
+                <h4 class="mt-3">Dashboard utilizando Tableau</h4>
                 <p>Identify and classify named entities in unstructured text data using natural language processing.</p>
             </div>
         </a>
@@ -610,64 +616,13 @@ margin-bottom: 20px;
     <div class="isotope_item">
         <div class="item-image">
             <a href="#">
-                <img src="images\portfolio\img-6.jpg" alt="blog" class="img-fluid" />
+                <img src="images\portfolio\img-11.jpg" alt="blog" class="img-fluid" />
             </a>
         </div>
         <a href="https://example.com">   
             <div class="item-info blog-info">
-                <h4 class="mt-3">Machine Learning Model for Predictive Maintenance</h4>
+                <h4 class="mt-3">Inquérito anual aos programadores do Stack Overflow</h4>
                 <p>Develop predictive maintenance models to optimize equipment uptime and reduce maintenance costs.</p>
-            </div>
-        </a>
-    </div>
-</div>
-
-<!-- Project 7 -->
-<div class="col-lg-4 col-sm-6 single-card-item" data-category="ml">
-    <div class="isotope_item">
-        <div class="item-image">
-            <a href="#">
-                <img src="images\portfolio\img-7.jpg" alt="blog" class="img-fluid" />
-            </a>
-        </div>
-        <a href="https://example.com" target="_blank">
-            <div class="item-info blog-info">
-                <h4 class="mt-3">Interactive Dashboard for Exploratory Data Analysis</h4>
-                <p>Create an interactive dashboard to explore and analyze complex datasets visually.</p>
-            </div>
-        </a>
-    </div>
-</div>
-
-<!-- Project 8 -->
-<div class="col-lg-4 col-sm-6 single-card-item" data-category="r">
-    <div class="isotope_item">
-        <div class="item-image">
-            <a href="#">
-                <img src="images\portfolio\img-8.jpg" alt="blog" class="img-fluid" />
-            </a>
-        </div>
-        <a href="https://example.com" target="_blank">
-            <div class="item-info blog-info">
-                <h4 class="mt-3">Database Optimization for Efficient Data Retrieval</h4>
-                <p>Optimize database performance to ensure efficient data retrieval and management.</p>
-            </div>
-        </a>
-    </div>
-</div>
-
-<!-- Project 9 -->
-<div class="col-lg-4 col-sm-6 single-card-item" data-category="data-visualization">
-    <div class="isotope_item">
-        <div class="item-image">
-            <a href="#">
-                <img src="images\Gif\gif-9.gif" alt="blog" class="img-fluid" />
-            </a>
-        </div>
-        <a href="https://example.com" target="_blank">
-            <div class="item-info blog-info">
-                <h4 class="mt-3">Deep Learning for Image Recognition</h4>
-                <p>Implement deep learning algorithms for image recognition tasks with high accuracy.</p>
             </div>
         </a>
     </div>
@@ -815,22 +770,23 @@ margin-bottom: 20px;
 <div class="copyright">
 <div class="container">
 	<div class="row">
-	<div class="col-lg-12">
-		<div class="footer-social-media-icons">
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-instagram"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-youtube"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-pinterest-p"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-vimeo-v"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-dribbble"></i></a>
-		<a href="javascript:void(0)" target="blank"><i class="fab fa-behance"></i></a>
+		<div class="col-lg-12">
+			<div class="footer-social-media-icons">
+				<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+				<a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+				<a href="https://vimeo.com/" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+				<a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>
+				<a href="https://www.behance.net/" target="_blank"><i class="fab fa-behance"></i></a>
+			</div>
+			<div class="footer-">
+				<p>Copyright © 2024 | Portfólio • Marcos Vinicius</p>
+			</div>
 		</div>
-		<div class="footer-">
-		<p>Copyright © 2024 | Portfólio • Marcos Vinicius</p>
-		</div>
-	</div>
+		
 	</div>
 </div>
 </div>

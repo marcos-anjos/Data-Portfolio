@@ -1,0 +1,142 @@
+<!--===================== PORTFOLIO =====================-->
+<style>
+	.item-image {
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	}
+</style>
+
+<section id="portfolio" class="portfolio-section pad-tb">
+	<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-lg-8">
+			<div class="common-heading">
+				<span>Portfólio de Dados</span>
+				<h4 class="mb0">Um vislumbre dos meus principais projetos de análise de dados.</h4>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<!-- Projeto 1 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-1.jpg" alt="image" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Python</button>
+						<button class="keyword-btn">Mapa Interativo</button>
+						<button class="keyword-btn">Aplicação Web</button>
+						<button class="keyword-btn">Streamlit</button>
+						<button class="keyword-btn">Visualização</button>
+					</div>
+					<h4><a href="#">Impacto dos Desastres no Brasil: Análise Interativa (1991-2023)</a></h4>
+					<p>Mapa interativo com Python, Streamlit e Git mostrando desastres no Brasil entre 1991-2023.</p>
+				</div>
+			</div>
+		</div>
+	
+		<!-- Projeto 2 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-2.jpg" alt="image" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Regras de associação</button>
+						<button class="keyword-btn">MBA</button>
+						<button class="keyword-btn">Gestão de Estoque</button>
+						<button class="keyword-btn">Merchandising</button>
+						<button class="keyword-btn">Cross-selling</button>
+					</div>
+					<h4><a href="#">Market Basket Analysis do Instacart</a></h4>
+					<p>Aplicação de regras de associação no Instacart para otimizar estoque e estratégias de merchandising.</p>
+				</div>
+			</div>
+		</div>
+	
+		<!-- Projeto 3 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-3.jpg" alt="image" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Python</button>
+						<button class="keyword-btn">K-Means</button>
+						<button class="keyword-btn">Segmentação de Clientes</button>
+						<button class="keyword-btn">Scikit-Learn</button>
+						<button class="keyword-btn">Visualização</button>
+					</div>
+					<h4><a href="#">Análise de Clusters de Clientes em Supermercados</a></h4>
+					<p>Segmentação de clientes de supermercados com K-Means em Python para análise de comportamento.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Projeto 4 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-10.jpeg" alt="Tableau Project" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Tableau</button>
+						<button class="keyword-btn">Dashboard</button>
+						<button class="keyword-btn">Vendas</button>
+						<button class="keyword-btn">KPIs</button>
+						<button class="keyword-btn">Visualização Interativa</button>
+					</div>
+					<h4><a href="#">Dashboard Interativo com Tableau</a></h4>
+					<p>Análise de vendas e KPIs com visualização interativa utilizando Tableau.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Projeto 5 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-11.jpg" alt="Power BI Project" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Power BI</button>
+						<button class="keyword-btn">Análise de Dados</button>
+						<button class="keyword-btn">Stack Overflow</button>
+						<button class="keyword-btn">Visualização de Dados</button>
+						<button class="keyword-btn">Pesquisa Anual</button>
+					</div>
+					<h4><a href="#">Pesquisa Anual Stack Overflow</a></h4>
+					<p>Analise e visualize dados da pesquisa anual do Stack Overflow utilizando Power BI.</p>
+				</div>
+			</div>
+		</div>
+
+		
+		<!-- Projeto 6 -->
+		<div class="col-lg-4 col-md-4 col-sm-6 mt60">
+			<div class="isotope_item">
+				<div class="item-image" data-tilt data-tilt-max="10" data-tilt-speed="1000">
+					<a href="#"><img src="images\portfolio\img-12.jpg" alt="Twitter Sentiment Analysis" class="img-fluid" style="height: 250px; width: auto;" /></a>
+				</div>
+				<div class="item-info">
+					<div class="keywords">
+						<button class="keyword-btn">Sentimento</button>
+						<button class="keyword-btn">Mídia Social</button>
+						<button class="keyword-btn">Análise</button>
+						<button class="keyword-btn">Twitter</button>
+						<button class="keyword-btn">NLP</button>
+					</div>
+					<h4><a href="#">Análise de Sentimento em Dados de Mídia Social</a></h4>
+					<p>Realize uma análise aprofundada de sentimentos no Twitter utilizando técnicas avançadas de NLP.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</div>
+</section>
